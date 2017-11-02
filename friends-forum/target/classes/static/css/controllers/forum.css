@@ -1,0 +1,31 @@
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: #337ab7;
+}
+a:focus{
+    text-decoration: none;
+    color: #777;
+}
+.btn-postMessage{
+    margin-top: 1px;
+    background-color: #64ABDB;
+    border: none;
+    color: #fff;
+}
+.pagination-center{
+    margin-left: 30%;
+}
+p{
+    margin: 0 0 0;
+}
+.alert-button-small{
+    margin-bottom: 3px;
+}
+/*@media (min-width:768px) {*/
+    /*.navbar-nav > li > button {*/
+        /*padding: 6px 12px;*/
+    /*}*/
+/*}*/

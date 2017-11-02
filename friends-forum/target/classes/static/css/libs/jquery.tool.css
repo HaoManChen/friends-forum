@@ -1,0 +1,11 @@
+#toast i.weui_icon{
+	margin: 22px 0 0;
+    display: block;
+}
+#toast i.weui_icon:before{
+	font-size: 55px;
+}
+.weui-icon_msg-primary.weui-icon-warn{
+	font-size:55px;
+	color:#FFBE00;
+}

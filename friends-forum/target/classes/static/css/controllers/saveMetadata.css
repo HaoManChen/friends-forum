@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.body_change{
+    margin-left: 5px;
+}
+select{
+    width: 100px;
+    margin-top: 3px;
+}
+.button_add{
+    width:84px;
+}

@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: @datasource.primary.url@
+    username: @datasource.primary.username@
+    password: @datasource.primary.password@
+    driver-class-name: com.mysql.jdbc.Driver
+  mvc:
+    static-path-pattern: /**
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+logging:
+  config: classpath:logback.xml
+  file: Users/haoman/Documents/data/frineds-log/friends-forum/
+

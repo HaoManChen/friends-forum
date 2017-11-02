@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理员内部注册申请界面</title>
+    <script src="../js/libs/jquery.min.js"></script>
+    <script src="../js/controllers/register.js" type="text/javascript"></script>
+</head>
+<body>
+<h2>欢迎来到管理员注册测试界面1.0</h2>
+<h3>首先请注册您的账号</h3>
+注册登陆账号：<input type="text" id="login_name"><span id="login_name_false"></span><br/>
+注册登陆密码：<input type="password" id = "login_password"><span id="login_password_false"></span><br/>
+请再次输入登陆密码：<input type="password" id = "login_password2"><span id = "password_same"></span><br/>
+<h3>接下来请输入客户的真实信息，我们将进行认证</h3>
+请输入您的姓名：<input type="text" id = "name"><br/>
+请输入您的邮箱：<input type="text" id = "email"><span id="email_false"></span><br/>
+请输入您的手机号码：<input type="text" id = "phone"><button id = "send_auth_code_message">发送验证短信</button><br/>
+请输入您（公司）的固定电话：<input type="text" id = "telephone"><br/>
+请输入您的现居地：<input type="text" id ="apartment"><br/>
+请输入您的身份证号码：<input type="password" id = "identity_card_number"><span id="identity_card_number_false"></span><br/>
+<h3>最后，请配置您的账号</h3>
+请输入您账号的名字：<input type="text" id = "user_name"><br/>
+请输入虚拟号：(虚拟号可以在常用机器中代替账号登陆，建议使用qq号)：<input type="text" id = "virtual_number"><button id="random_virtual_number">随机获取</button><br/>
+权限等级：<select id="gm_level">
+                <option value="1">论坛管理员</option>
+                <option value="2">动态管理员</option>
+                <option value="3">任务管理员</option>
+                <option value="4">直播管理员</option>
+        </select><br/>
+权限验证码：<input type="text" id = "gm_level_auth_code"><br/>
+短信验证码：<input type="text" id = "message_auth_code"><br/>
+<button id="submit">提交</button>
+</body>
+</html>
